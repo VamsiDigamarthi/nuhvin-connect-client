@@ -1,0 +1,83 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  /* background-color: #241e5e; */
+  /* background-color: #0e0c17; */
+
+  padding: 0px 20px;
+  border-bottom: 1px solid grey;
+  color: #fff;
+}
+
+.header-second-card {
+  width: 60%;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header-search-card {
+  width: 30%;
+  height: 35px;
+  /* border: 2px solid lightgray; */
+  border-radius: 10px;
+  /* overflow: hidden; */
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+}
+.header-search-card > input {
+  width: 80%;
+  height: 100%;
+  background-color: transparent;
+  font-size: 16px;
+  /* padding: 0px 5px; */
+  border: none;
+  outline: none;
+}
+
+.dark-and-light-mode-card {
+  width: 60px;
+  border: 2px solid var(--orange);
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px;
+  position: relative;
+  overflow: hidden;
+}
+
+.dart-icons {
+  z-index: 2;
+  cursor: pointer;
+}
+
+.dark-light-background-color-card {
+  width: 50%;
+  height: 100%;
+  background-color: rgb(56, 74, 187);
+  background-color: var(--orange);
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  z-index: 10;
+  transition: transform 0.5s ease;
+}
+.activeDark {
+  transform: translateX(-3px);
+}
+
+.deactiveDark {
+  transform: translateX(89%);
+}
+
+.cursor {
+  cursor: pointer;
+}

@@ -1,0 +1,86 @@
+.table-card {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.table-search-input-card {
+  width: 100%;
+  height: 40px;
+  /* border: 2px solid red; */
+  /* padding: 0px 20px; */
+}
+
+.table-input-card {
+  width: 300px;
+  background-color: #f8f8f8;
+  display: flex;
+  padding: 2px 10px;
+  border-radius: 15px;
+  height: 100%;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.table-search-input {
+  height: 90%;
+  width: 89%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 16px;
+}
+
+.table-search-input::placeholder {
+  color: lightgray; /* Custom color for specific input field */
+}
+.table-header-body-card {
+  height: calc(500px - 40px);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  /* font-family: "Courier New", Courier, monospace; */
+}
+
+.table-header-card {
+  width: 100%;
+  background-color: #f8f8f8;
+  border-radius: 15px;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  color: grey;
+  align-items: flex-start;
+  height: 42px;
+}
+
+.bod {
+  border: 1px solid red;
+}
+
+.table-main-body-card {
+  height: calc(100% - 42px);
+  /* border: 2px solid red; */
+  overflow-y: scroll;
+}
+
+.table-main-body-card > :nth-child(even) {
+  background-color: #fdfafa;
+  border-radius: 15px;
+}
+
+.table-single-body {
+  font-size: 16px;
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  align-items: flex-start;
+  padding: 10px;
+  height: 40px;
+  overflow: hidden;
+}

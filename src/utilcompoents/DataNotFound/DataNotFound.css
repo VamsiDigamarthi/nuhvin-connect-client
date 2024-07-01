@@ -1,0 +1,12 @@
+.data-not-found-card {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: var(--orange);
+  /* border: 2px solid red; */
+}
+.data-not-found-card > img {
+  width: 40%;
+}

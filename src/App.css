@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal; */
+}
+
+:root {
+  --lightBackgrounColor: #241e5e;
+  --darkBackgrounColor: #0e0c17;
+  --orange: #f48915;
+  --Accent_Color: #1c87c9;
+  --Grey_Color: #808080;
+  --Background_Color: #ffffff;
+  /* --darkBackgrounColor: #031d09; */
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Background of the scrollbar track */
+  border-radius: 10px; /* Rounded corners for the track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888; /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Rounded corners for the thumb */
+  border: 3px solid #f1f1f1; /* Space around the thumb */
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Color of the scrollbar thumb when hovered */
+}
+
+.darkMode {
+  background-color: var(--darkBackgrounColor);
+}
+
+.lightMode {
+  background-color: var(--lightBackgrounColor);
+}
+
+.main-body-theme {
+  background-color: white;
+}
+
+.dark-orange-color {
+  color: #f48915;
+}

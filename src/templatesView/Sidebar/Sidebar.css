@@ -1,0 +1,82 @@
+.sider-bard-main-card {
+  width: 100%;
+  display: flex;
+  height: 100%;
+}
+
+.side-bar {
+  width: 16rem;
+  border-right: 1px solid grey;
+}
+
+.side-bar-main-pages {
+  width: 100%;
+  /* border: 2px solid yellow; */
+  padding: 20px;
+  height: 100%;
+  overflow-y: scroll;
+  /* height: 300vh; */
+  /* background-color: var(--darkBackgrounColor); */
+}
+
+.routes {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.link {
+  display: flex;
+  color: #fff;
+  gap: 10px;
+  padding: 5px 10px;
+  border-right: 4px solid transparent;
+  transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  text-decoration: none;
+}
+.link:hover {
+  border-right: 6px solid #fc4e14;
+  background: #685cfe;
+  background-color: #ff7b00cb;
+  transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+.active {
+  border-right: 6px solid #fc4e14;
+  background: #685cfe;
+  /* background-color: #ff7b00cb; */
+}
+
+.menu {
+  display: flex;
+  color: #fff;
+
+  padding: 5px 10px;
+  border-right: 4px solid transparent;
+  transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  justify-content: space-between;
+}
+.menu_item {
+  display: flex;
+  gap: 10px;
+}
+.menu_container {
+  display: flex;
+  flex-direction: column;
+}
+.menu_container .link {
+  padding-left: 20px;
+  border-bottom: #fff 0.5px solid;
+}
+
+.path-register-change-style {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  padding: 0px;
+}

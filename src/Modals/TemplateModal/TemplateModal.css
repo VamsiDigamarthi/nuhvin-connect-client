@@ -1,0 +1,46 @@
+.all-modal-main-card {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 20;
+  background-color: rgba(0, 0, 0, 0.473);
+}
+
+.all-modal-inside-section {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 10px;
+  background-color: #fff;
+  color: black;
+}
+.all-modal-closing-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.all-modal-closing-card > :nth-child(2) {
+  cursor: pointer;
+}
+
+.light-mode-modal-back {
+  background-color: #fff;
+}
+
+.dark-mode-modal-back {
+  background-color: var(--darkBackgrounColor);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.darkmode-close-icons {
+  color: var(--orange);
+}
